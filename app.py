@@ -99,19 +99,19 @@ if st.session_state.mostrar_carta:
 
     # Imagens
     st.markdown("#### comida fav 💘")
-    st.image("sushi.jpg", width=400)
+    st.image("sushi.jpg", )
 
     st.markdown("#### sua cor fav 💘")
-    st.image("rosa2.jpg", width=400)
+    st.image("rosa2.jpg", )
 
     st.markdown("#### nossos filhos 💘")
-    st.image("snoopy.jpg", width=400)
+    st.image("snoopy.jpg", )
 
     st.markdown("#### MINHA NENEM 💘")
-    st.image("BEBE.jpg", width=400)
+    st.image("BEBE.jpg", )
 
     st.markdown("#### NOS 💘")
-    st.image("nos.jpg", width=400)
+    st.image("nos.jpg", )
 
     # Filmes
     st.markdown("#### SEUS FILMES 💘")
@@ -124,7 +124,7 @@ if st.session_state.mostrar_carta:
         ("Ela e os Caras", "ela_e_os_caras.jpg"),
         ("Stitch", "stitch.jpg"),
         ("Amor com data marcada", "amor_com_data_marcada.jpg" ),
-        ("Norbit", "norbit.jpg")
+        ("Coraline", "coraline.png")
     ]
 
     col1, col2, col3 = st.columns([1, 2, 1])
@@ -137,7 +137,9 @@ if st.session_state.mostrar_carta:
 
     titulo, imagem = filmes[st.session_state.filme_index]
     st.image(imagem, caption=titulo, use_container_width=True)
-
+    
+    st.markdown("#### AS UNHA(que amo escolher a cor) 💘")
+    st.image("unha.jpg" )
 
 
 
