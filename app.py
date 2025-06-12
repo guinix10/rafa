@@ -121,7 +121,7 @@ if st.session_state.mostrar_carta:
     st.markdown("#### SEUS FILMES 💘")
     filmes = [
         ("Para Todos os Garotos que Já Amei", "para_todos_os_garotos.webp"),
-        ("Amizade Colorida", "amizade_colorida.jpg"),
+        ("como se fosse a primeira vez", "4981985.jpg"),
         ("Casamento Sangrento", "casamento_sangrento2.jpg"),
         ("O Pequenino", "o_pequenino.webp"),
         ("As Branquelas", "as_branquelas.webp"),
