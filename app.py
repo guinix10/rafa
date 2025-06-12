@@ -121,7 +121,7 @@ if st.session_state.mostrar_carta:
     st.markdown("#### SEUS FILMES 💘")
     filmes = [
         ("Para Todos os Garotos que Já Amei", "para_todos_os_garotos.webp"),
-        ("como se fosse a primeira vez", "4981985.jpg"),
+        ("como se fosse a primeira vez", "4981975.jpg"),
         ("Casamento Sangrento", "casamento_sangrento2.jpg"),
         ("O Pequenino", "o_pequenino.webp"),
         ("As Branquelas", "as_branquelas.webp"),
@@ -171,7 +171,6 @@ if st.session_state.mostrar_carta:
     st.markdown(f"#### estamos juntos há **{dias} dias** 💘 e contando!")
 
     st.markdown("💖 *Te amo pra sempre! fiz tudo com muito carinho e dedicação! te amo rafa!* 💖", unsafe_allow_html=True)
-
 
 
    
